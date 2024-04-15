@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ваш проект</title>
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    Привет мир разработки!
+    <header class="header">
+      <div class="header__container container">
+        <a href="#" class="header__logo"
+          ><img src="img/logo_top.svg" alt="logo_site"
+        /></a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item"><a href="#">Главная</a></li>
+            <li class="header__item"><a href="#">Магазин</a></li>
+            <li class="header__item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header__user-actions">
+          <button class="header__button">
+            <img src="img/logo_search.svg" alt="icon_search" /></button
+          ><button class="header__button">
+            <img src="img/logo_shop.svg" alt="icon_shop" /></button
+          ><button class="header__button header__button--hidden">
+            <img src="img/icon_burger.svg" alt="icon_burger_menu" />
+          </button>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
