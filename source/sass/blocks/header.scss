@@ -1,5 +1,5 @@
 .header {
-    @media screen and (min-width:1728px) {
+    @media (min-width:1728px) {
         position: absolute;
         z-index: 5;
         width: 100%;
@@ -11,21 +11,21 @@
         position: relative;
         padding-top: 15px;
 
-        @media screen and (min-width: 768px) {
+        @media (min-width: 768px) {
             padding-top: 22px;
         }
 
-        @media screen and (min-width: 1728px) {
+        @media (min-width: 1728px) {
             padding-top: 77px;
         }
     }
 
     &__logo {
-        @media(min-width: 768px) {
+        @media (min-width: 768px) {
             margin-right: 140px;
         }
 
-        @media(min-width: 1728px) {
+        @media (min-width: 1728px) {
             margin-right: 360px;
         }
 
@@ -44,11 +44,11 @@
     &__nav {
         display: none;
         
-        @media screen and (min-width: 768px) {
+        @media (min-width: 768px) {
             display: block;
         }
         &--showed {
-             @media screen and (max-width: 767px) {
+             @media (max-width: 767px) {
                 display: flex;
                 flex-direction: column;
                 padding: 15px 10px 20px 20px;
@@ -67,7 +67,7 @@
     &__list {
         @include clear-list;
         
-        @media screen and (max-width: 767px) {
+        @media (max-width: 767px) {
             position: absolute;
             right: 0;
             top: 75px;
@@ -75,26 +75,26 @@
             width: 100%;
         }
         
-        @media screen and (min-width:768px) {
+        @media (min-width:768px) {
             display: flex;
             padding-top: 10px;
         }    
     }
 
     &__item {
-        @media screen and (max-width:767px) {
+        @media (max-width:767px) {
             font-size: 20px;
             font-weight: 400;
             line-height: 24px;
         }
 
-        @media screen and (max-width:767px) {
+        @media (max-width:767px) {
             font-size: 16px;
             font-weight: 400;
             line-height: 24px;
         }
 
-        @media screen and (max-width:767px) {
+        @media (max-width:767px) {
             font-size: 24px;
             line-height: 37px;
         }
@@ -155,7 +155,7 @@
         z-index: 101;
         position: relative;
         
-        @media screen and (min-width:768px) {
+        @media (min-width:768px) {
             gap: 44px;
         }
     }
@@ -166,14 +166,14 @@
         img {
             width: 20px;
             height: 18px;
-            @media screen and (min-width:768px) {
+            @media (min-width:768px) {
                 width: 29px;
                 height: 27px;
             }
         }
 
         &--hidden {
-            @media screen and (min-width:768px) {
+            @media (min-width:768px) {
                 display: none;    
             }
         }
