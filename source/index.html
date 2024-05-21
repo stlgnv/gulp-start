@@ -60,15 +60,16 @@
                 Чтоб купили прям вообще всё
               </p>
             </div>
-            <button type="button" class="hero__button">За покупками</button>
+            <button type="button" class="hero__button dark-btn">
+              За покупками
+            </button>
           </div>
 
           <div class="hero__product">
             <img
               src="img/image_sneaker.png"
               alt="img_sneaker"
-              class="hero__product-image"
-            />
+              class="hero__product-image"/>
             <span class="hero__product-name">Trendy Slick Pro</span>
             <span class="hero__product-price">3999 ₽</span>
           </div>
@@ -78,70 +79,70 @@
         <div class="marketplace-block__container container">
           <ul class="marketplace-block__list-one">
             <li class="marketplace-block__item">
-              <a href="#"
-                ><img
+              <a href="#">
+                <img
                   src="img/ozon_logo.svg"
                   alt="ozon logo"
-                  class="marketplace-block__image"
-              /></a>
+                  class="marketplace-block__image"/>
+              </a>
             </li>
             <li class="marketplace-block__item">
-              <a href="#"
-                ><img
+              <a href="#">
+                <img
                   src="img/wildberries_logo.svg"
                   alt="wildberries logo"
-                  class="marketplace-block__image"
-              /></a>
+                  class="marketplace-block__image"/>
+              </a>
             </li>
             <li class="marketplace-block__item">
-              <a href="#"
-                ><img
+              <a href="#">
+                <img
                   src="img/sbermarket_logo.svg"
                   alt="sbermarket logo"
-                  class="marketplace-block__image"
-              /></a>
+                  class="marketplace-block__image"/>
+              </a>
             </li>
             <li class="marketplace-block__item">
-              <a href="#"
-                ><img
-                  src="img/yandex_market.svg"
+              <a href="#">
+                <img
+                  src="img/yandexmarket_logo.svg"
                   alt="yandexmarket logo"
-                  class="marketplace-block__image"
-              /></a>
+                  class="marketplace-block__image"/>
+              </a>
             </li>
           </ul>
           <ul class="marketplace-block__list-two">
             <li class="marketplace-block__item">
-              <a href="#"
-                ><img
+              <a href="#">
+                <img
                   src="img/ozon_logo.svg"
                   alt="ozon logo"
-                  class="marketplace-block__image"
-              /></a>
+                  class="marketplace-block__image"/>
+              </a>
             </li>
             <li class="marketplace-block__item">
-              <a href="#"
-                ><img
+              <a href="#">
+                <img
                   src="img/wildberries_logo.svg"
                   alt="wildberries logo"
-                  class="marketplace-block__image"
-              /></a>
+                  class="marketplace-block__image"/>
+              </a>
             </li>
             <li class="marketplace-block__item">
-              <a href="#"
-                ><img
+              <a href="#">
+                <img
                   src="img/sbermarket_logo.svg"
                   alt="sbermarket logo"
-                  class="marketplace-block__image"
-              /></a>
+                  class="marketplace-block__image"/>
+              </a>
             </li>
             <li class="marketplace-block__item">
-              <a href="#"
-                ><img
-                  src="img/yandex_market.svg"
+              <a href="#">
+                <img
+                  src="img/yandexmarket_logo.svg"
                   alt="yandexmarket logo"
-                  class="marketplace-block__image"
-              /></a>
+                  class="marketplace-block__image"/>
+              </a>
             </li>
           </ul>
         </div>
@@ -150,19 +151,148 @@
         <div class="popular-block__container container">
           <div class="popular-block__title-block">
             <h3 class="popular-block__title">
-              <span class="slider-block__subtitle">Сегодня в тренде</span>Самые популярные</h3>
-              p
+              <span class="popular-block__subtitle">Сегодня в тренде</span>Самые популярные
+            </h3>
+            <p class="popular-block__text">
+              Посмотрите, что чаще всего покупают у нас
+            </p>
+            <button class="popular-block__show-all dark-btn">
+              Показать все
+            </button>
+          </div>
+          <div class="popular-block__slider">
+            <div class="popular-block__product-wrapper">
+              <div class="product product--border-radius">
+                <img
+                  src="img/slider-sneaker-1.png"
+                  alt="sneaker image 2"
+                  class="product__image product__image--slide-size"/>
+                <span class="product__name">Running sport shoe</span>
+                <div class="product__price-wrapper">
+                  <span class="product__price">3999 ₽</span>
+                  <span class="product__old-price product__old-price--hidden">3999 ₽</span>
+                  <button class="product__button product__button--slide-size"></button>
+                </div>
+              </div>
+              <div class="product product--border-radius product--hidden-slide">
+                <img
+                  src="img/slider-sneaker-2.png"
+                  alt="sneaker image 2"
+                  class="product__image product__image--slide-size"/>
+                <span class="product__name">Running sport shoe</span>
+                <div class="product__price-wrapper">
+                  <span class="product__price">3999 ₽</span>
+                  <span class="product__old-price product__old-price--hidden">3999 ₽</span>
+                  <button class="product__button product__button--slide-size"></button>
+                </div>
+              </div>
+              <div class="product product--border-radius product--hidden-slide">
+                <img
+                  src="img/slider-sneaker-3.png"
+                  alt="sneaker image 2"
+                  class="product__image product__image--slide-size"/>
+                <span class="product__name">Running sport shoe</span>
+                <div class="product__price-wrapper">
+                  <span class="product__price">3999 ₽</span>
+                  <span class="product__old-price product__old-price--hidden">3999 ₽</span>
+                  <button class="product__button product__button--slide-size"></button>
+                </div>
+              </div>
+            </div>
+            <div class="popular-block__button">
+              <button class="popular-block__slide-left"><img src="img/slide-left.svg" alt="slide left" /></button>
+              <button class="popular-block__slide-right"><img src="img/slide-right.svg" alt="slide right" /></button>
+            </div>
+            <div class="popular-block__indicator slider-pagination">
+              <button
+                type="button"
+                class="slider-pagination__item slider-pagination__item--small slider-pagination__item--bg-black slider-pagination__item--round">
+              </button>
+              <button
+                type="button"
+                class="slider-pagination__item slider-pagination__item--big slider-pagination__item--bg-black slider-pagination__item--half-round">
+              </button>
+              <button
+                type="button"
+                class="slider-pagination__item slider-pagination__item--small slider-pagination__item--bg-black slider-pagination__item--round">
+              </button>
+            </div>
+          </div>
+          <button class="popular-block__show-all-mobile dark-btn">
+            Показать все
+          </button>
+        </div>
+      </section>
+      <section class="slide-banner">
+        <div class="slide-banner__container container">
+          <div class="slide-banner__wrapper">
+            <ul class="slide-banner__list banner">
+              <li class="banner__item banner__item--border-round banner__item--bg-color banner__item--bg-slick">
+                <div class="banner__content-wrapper">
+                  <span class="banner__subtitle banner__subtitle--text-size banner__subtitle--text-size banner__subtitle--text-white">
+                    Ты готов
+                  </span>
+                  <h3 class="banner__title banner__title--text-size banner__title--text-white">
+                    проложить свой путь?
+                  </h3>
+                  <button class="banner__button">См Все</button>
+                  <ul class="banner__link-list">
+                    <li>
+                      <a href="#" class="banner__link-item">
+                        <img
+                          src="img/slide-mini-sneaker-1.png"
+                          alt="mini sneaker 1"/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="banner__link-item">
+                        <img
+                          src="img/slide-mini-sneaker-2.png"
+                          alt="mini sneaker 2"/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="banner__link-item">
+                        <img
+                          src="img/slide-mini-sneaker-3.png"
+                          alt="mini sneaker 3"/>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="slide-banner__swaper">
+              <button class="slide-banner__swap-left">
+                <img src="img/slide-left.svg" alt="slide left" />
+              </button>
+              <button class="slide-banner__swap-right">
+                <img src="img/slide-right.svg" alt="slide right" />
+              </button>
+            </div>
+            <div class="slide-banner__indicator slider-pagination">
+              <button
+                type="button"
+                class="slide-banner__indicator-item slider-pagination__item slider-pagination__item--small slider-pagination__item--bg-white slider-pagination__item--round">
+              </button>
+              <button
+                type="button"
+                class="slide-banner__indicator-item slider-pagination__item slider-pagination__item--big slider-pagination__item--bg-white slider-pagination__item--half-round">
+              </button>
+              <button
+                type="button"
+                class="slide-banner__indicator-item slider-pagination__item slider-pagination__item--small slider-pagination__item--bg-white slider-pagination__item--round">
+              </button>
+            </div>
           </div>
         </div>
       </section>
+
       <section class="best-selling">
         <div class="best-selling__container container">
           <h2 class="best-selling__title title-lined">Best Selling</h2>
           <div class="best-selling__gender-swap">
-            <button
-              type="button"
-              class="best-selling__button best-selling__button--black"
-            >
+            <button type="button" class="best-selling__button best-selling__button--black">
               Мужские
             </button>
             <button type="button" class="best-selling__button">Женские</button>
@@ -173,16 +303,15 @@
                 <img
                   src="img/best-selling-sneaker-1.png"
                   alt="sneaker image 1"
-                  class="product__image"
-                />
+                  class="product__image"/>
                 <span class="product__name">Slick formal sneaker shoe</span>
                 <div class="product__price-wrapper">
                   <span class="product__price">2999 ₽ </span>
                   <span class="product__old-price">4999 ₽</span>
                   <button
                     type="button"
-                    class="product__button product__button--big"
-                  ></button>
+                    class="product__button product__button--big">
+                  </button>
                 </div>
               </div>
             </div>
@@ -191,8 +320,7 @@
                 <img
                   src="img/best-selling-sneaker-2.png"
                   alt="sneaker image 2"
-                  class="product__image"
-                />
+                  class="product__image"/>
                 <span class="product__name">Slick sneaker shoe</span>
                 <div class="product__price-wrapper">
                   <span class="product__price">2999 ₽</span>
@@ -206,8 +334,7 @@
                 <img
                   src="img/best-selling-sneaker-3.png"
                   alt="sneaker image 3"
-                  class="product__image"
-                />
+                  class="product__image"/>
                 <span class="product__name">Slick canvas shoe</span>
                 <div class="product__price-wrapper">
                   <span class="product__price">2999 ₽</span>
@@ -217,11 +344,98 @@
               </div>
             </div>
           </div>
-          <button type="button" class="best-selling__show-all show-all">
+          <button type="button" class="best-selling__show-all dark-btn">
             Показать все
           </button>
         </div>
       </section>
+      <section class="reviews">
+        <div class="reviews__container container">
+          <h3 class="reviews__title title-lined">
+            Отзывы <span>о кроссах</span>
+          </h3>
+          <div class="reviews__wrapper">
+            <div class="reviews__card card card--bg-gray card--border-dark-gray">
+              <img
+                src="img/aya-joshi-photo.png"
+                alt="Aya Joshi photo"
+                class="card__image card__image--g-2-2"/>
+              <div class="card__name-rating card__name-rating--g-2-5">
+                <span class="card__name">Ava Joshi</span>
+                <div class="card__star card__star--4-5"></div>
+              </div>
+              <p class="card__comment card__comment--g-1-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="reviews__card card card--bg-gray card--border-dark-gray">
+              <img
+                class="card__image card__image--g-2-2"
+                src="img/otis-bisnoy-photo.png"
+                alt="Otis Bisnoy photo"/>
+              <div class="card__name-rating card__name-rating--g-2-5">
+                <span class="card__name">Otis Bisnoy</span>
+                <div class="card__star card__star--3-5"></div>
+              </div>
+              <p class="card__comment card__comment--g-1-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__wrapper">
+            <div class="footer__content-wrapper">
+              <a href="#" class="footer__logo"
+                ><img src="img/footer-logo.svg" alt="slick logo image"/>
+              </a>
+              <p class="footer__text">
+                Какие мы крутые, у нас лучшие кроссы и ваще... всё.
+              </p>
+              <ul class="footer__social-list">
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-link">
+                    <img src="img/footer-social-tg.svg" alt="logo tg"/>
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__list-link"
+                    ><img src="img/footer-social-vk.svg" alt="logo vk"/>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__list-wrapper">
+              <span>Быстрые ссылки</span>
+              <ul class="footer__list">
+                <li class="footer__item"><a href="#">Главная</a></li>
+                <li class="footer__item"><a href="#">Магазин</a></li>
+                <li class="footer__item"><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="footer__form-wrapper">
+              <p class="footer__form-text">Подпишись на наши акции</p>
+              <form class="footer__subscription-form">
+                <input
+                  type="email"
+                  class="footer__mail"
+                  placeholder="Введи email..."/>
+                <span class="footer__form-line"></span>
+                <button class="footer__button" type="submit">
+                  Подписаться
+                </button>
+              </form>
+              <span class="footer__line"></span>
+              <span class="footer__bottom-text"
+                >www.slick.com©all right reserve</span>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
